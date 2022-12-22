@@ -6,15 +6,24 @@
     <description>Recent content in Блог on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
-    <lastBuildDate>Sun, 18 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Dec 2022 10:40:37 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Как узнать JS событие в B24</title>
-      <link>/posts/how-find-out-js-event-in-bitrix24/</link>
-      <pubDate>Sun, 18 Dec 2022 00:00:00 +0000</pubDate>
+      <title>Почему у лучшего работника может быть неидеальное резюме</title>
+      <link>/posts/not-ideal-resume/</link>
+      <pubDate>Mon, 19 Dec 2022 10:40:37 +0000</pubDate>
       
-      <guid>/posts/how-find-out-js-event-in-bitrix24/</guid>
-      <description>He moved over to the window Since about that time, war had been literally continuous, though strictly speaking it had not always been the same war. For several months during his childhood there had been confused street fighting in London itself, some of which he remembered vividly.
-Inside the flat a fruity voice was reading out a list of figures which had something to do with the production of pig iron.</description>
+      <guid>/posts/not-ideal-resume/</guid>
+      <description>Видео об интересном подходе к собеседованию и поиску работы. По мнению Регины Хартли существуют 2 типа соискателей &amp;quot; серебряная ложка&amp;quot;, человек с великолепной учебой, крутым портфолио и &amp;ldquo;бойцом&amp;rdquo;, человеком с определенным риском для работодателя(непрофильная работа, большое количество увольнений). Выбирая между одним претендентом на вакансию с резюме и другим,который преодолевал трудности, руководитель отдела кадров Регина Хартли даёт шанс «бойцу». Выросшая в неблагоприятной среде, Хартли знает, что тех, кто расцветает даже в самых мрачных условиях, толкает вперёд твёрдое намерение не сдаваться в постоянно меняющейся рабочей обстановке.</description>
+    </item>
+    
+    <item>
+      <title>Как корректно описывать задачи</title>
+      <link>/posts/correct-task-description/</link>
+      <pubDate>Thu, 09 Sep 2021 10:40:37 +0000</pubDate>
+      
+      <guid>/posts/correct-task-description/</guid>
+      <description>В большинстве компаний, с которыми мне приходилось работать, постановка задач разработчику была плохая. В этой статье я постараюсь рассказать свое видение на постановку задач и дам шаблоны постановки задач, которые я сделал для себя в бытность тимлидом.
+NB Я согласен, что разработчик должен задавать вопросы для уточнения. Однако в большинстве компаний разработчик является инструментом для решения проблемы или создания новой фичи в бизнесе. Не всегда разработчику объясняют в какой системе находится его фича, как она будет использоваться клиентом, да и вообще что должно быть в конце получено от разработчика (об этом ниже).</description>
     </item>
     
     <item>
@@ -25,6 +34,30 @@ Inside the flat a fruity voice was reading out a list of figures which had somet
       <guid>/posts/epic-fail-with-me/</guid>
       <description>Мне часто приходится общаться с hr. К сожалению, очень редко приходится общаться с людьми, которые понимают ценность кадров. Несколько веселых кейсов, в которых мне приходилось участвовать.
 NB! Я считаю, что B24 разработчики (Битрикс24) очень редки и их очень сложно найти на рынке(адекватных мидл разработчиков php, которые понимают в разработке на битриксе). Плохо, что данные разработчики могут тяжело ответить на вопросы по поводу PHP, Абстрактных типов данных, Абстрактных классах и Интерфейсах и т.</description>
+    </item>
+    
+    <item>
+      <title>Как использовать make на windows</title>
+      <link>/posts/make-in-windows/</link>
+      <pubDate>Sat, 21 Aug 2021 20:13:35 +0000</pubDate>
+      
+      <guid>/posts/make-in-windows/</guid>
+      <description>Зачем make?
+make — утилита предназначенная для автоматизации преобразования файлов из одной формы в другую. Правила преобразования задаются в скрипте с именем Makefile, который должен находиться в корне рабочей директории проекта. Сам скрипт состоит из набора правил, которые в свою очередь описываются:
+целями (то, что данное правило делает); реквизитами (то, что необходимо для выполнения правила и получения целей); командами (выполняющими данные преобразования). В общем виде синтаксис makefile можно представить так:</description>
+    </item>
+    
+    <item>
+      <title>Как создать блог на Github Pages</title>
+      <link>/posts/how-to-create-blog/</link>
+      <pubDate>Tue, 10 Aug 2021 08:28:57 +0000</pubDate>
+      
+      <guid>/posts/how-to-create-blog/</guid>
+      <description>В этой статье рассказано, как просто и с нуля создать сайт и сделать его доступным по адресу sitename.github.io (бесплатный хостинг Github) и подключить к нему доменное имя.
+Использовать будем HEXO.
+Примерный план работы:
+Зачем этот генератор статических сайтов? Установка hexo на компьютер Настройки сайта Создание репозитория Добавляем код в репозиторий Настраиваем репозитория для публикации Добавляем в репозиторий CNAME Добавляем А-запись в DNS домена Зачем этот генератор статических сайтов?
+Зачем они нужны, эти генераторы?</description>
     </item>
     
   </channel>

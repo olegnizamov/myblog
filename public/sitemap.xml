@@ -3,19 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/tags/</loc>
-    <lastmod>2022-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2022-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-19T10:40:37+00:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
-    <lastmod>2022-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-19T10:40:37+00:00</lastmod>
   </url><url>
-    <loc>/posts/how-find-out-js-event-in-bitrix24/</loc>
-    <lastmod>2022-12-18T00:00:00+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2022-12-19T10:40:37+00:00</lastmod>
   </url><url>
-    <loc>/tags/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%B1%D0%B8%D1%82%D1%80%D0%B8%D0%BA%D1%8124/</loc>
-    <lastmod>2022-12-18T00:00:00+00:00</lastmod>
+    <loc>/posts/not-ideal-resume/</loc>
+    <lastmod>2022-12-19T10:40:37+00:00</lastmod>
+  </url><url>
+    <loc>/tags/%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D1%83%D1%8E-%D0%BE%D0%B1%D0%B7%D0%BE%D1%80/</loc>
+    <lastmod>2022-12-19T10:40:37+00:00</lastmod>
+  </url><url>
+    <loc>/posts/correct-task-description/</loc>
+    <lastmod>2021-09-09T10:40:37+00:00</lastmod>
   </url><url>
     <loc>/tags/%D0%BC%D0%BE%D0%B8-fail/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
@@ -23,12 +26,26 @@
     <loc>/posts/epic-fail-with-me/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/posts/make-in-windows/</loc>
+    <lastmod>2021-08-21T20:13:35+00:00</lastmod>
+  </url><url>
+    <loc>/tags/%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/</loc>
+    <lastmod>2021-08-21T20:13:35+00:00</lastmod>
+  </url><url>
+    <loc>/posts/how-to-create-blog/</loc>
+    <lastmod>2021-08-10T08:28:57+00:00</lastmod>
+  </url><url>
+    <loc>/finished/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>/projects/</loc>
     <priority>0</priority>
   </url><url>
     <loc>/categories/</loc>
   </url><url>
     <loc>/pages/</loc>
+  </url><url>
+    <loc>/questions/</loc>
   </url><url>
     <loc>/about/</loc>
   </url><url>
