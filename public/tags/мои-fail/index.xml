@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Мои fail on </title>
+    <link>/tags/%D0%BC%D0%BE%D0%B8-fail/</link>
+    <description>Recent content in Мои fail on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <lastBuildDate>Thu, 09 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/%D0%BC%D0%BE%D0%B8-fail/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Эпичные fail hr в Ит, с которыми мне приходилось сталкиваться.</title>
+      <link>/posts/epic-fail-with-me/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/epic-fail-with-me/</guid>
+      <description>Мне часто приходится общаться с hr. К сожалению, очень редко приходится общаться с людьми, которые понимают ценность кадров. Несколько веселых кейсов, в которых мне приходилось участвовать.
+NB! Я считаю, что B24 разработчики (Битрикс24) очень редки и их очень сложно найти на рынке(адекватных мидл разработчиков php, которые понимают в разработке на битриксе). Плохо, что данные разработчики могут тяжело ответить на вопросы по поводу PHP, Абстрактных типов данных, Абстрактных классах и Интерфейсах и т.</description>
+    </item>
+    
+  </channel>
+</rss>

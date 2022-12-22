@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on </title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <lastBuildDate>Sun, 18 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Разработка Битрикс24</title>
+      <link>/tags/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%B1%D0%B8%D1%82%D1%80%D0%B8%D0%BA%D1%8124/</link>
+      <pubDate>Sun, 18 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%B1%D0%B8%D1%82%D1%80%D0%B8%D0%BA%D1%8124/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Мои fail</title>
+      <link>/tags/%D0%BC%D0%BE%D0%B8-fail/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%D0%BC%D0%BE%D0%B8-fail/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

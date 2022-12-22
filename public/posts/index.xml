@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Блог on </title>
+    <link>/posts/</link>
+    <description>Recent content in Блог on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <lastBuildDate>Sun, 18 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Как узнать JS событие в B24</title>
+      <link>/posts/how-find-out-js-event-in-bitrix24/</link>
+      <pubDate>Sun, 18 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/how-find-out-js-event-in-bitrix24/</guid>
+      <description>He moved over to the window Since about that time, war had been literally continuous, though strictly speaking it had not always been the same war. For several months during his childhood there had been confused street fighting in London itself, some of which he remembered vividly.
+Inside the flat a fruity voice was reading out a list of figures which had something to do with the production of pig iron.</description>
+    </item>
+    
+    <item>
+      <title>Эпичные fail hr в Ит, с которыми мне приходилось сталкиваться.</title>
+      <link>/posts/epic-fail-with-me/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/epic-fail-with-me/</guid>
+      <description>Мне часто приходится общаться с hr. К сожалению, очень редко приходится общаться с людьми, которые понимают ценность кадров. Несколько веселых кейсов, в которых мне приходилось участвовать.
+NB! Я считаю, что B24 разработчики (Битрикс24) очень редки и их очень сложно найти на рынке(адекватных мидл разработчиков php, которые понимают в разработке на битриксе). Плохо, что данные разработчики могут тяжело ответить на вопросы по поводу PHP, Абстрактных типов данных, Абстрактных классах и Интерфейсах и т.</description>
+    </item>
+    
+  </channel>
+</rss>

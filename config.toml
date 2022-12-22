@@ -1,0 +1,44 @@
+baseURL = "/"
+languageCode = "en-en"
+theme = "hugo-winston-theme"
+themesDir = "themes"
+title = ""
+paginate = 10
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
+[params]
+  google_analytics_id = ""
+  twitter_handle = ""
+  showAuthorOnHomepage = true
+  showAuthorOnPosts = false
+  showPostsOnHomepage = false
+  addDot = false
+  addFrame = true
+  highlightColor = '#0a2b8d'
+  baseColor = "#ffffff"
+  baseOffsetColor = "#eaeaea"
+  headingColor = "#0a2b8d"
+  textColor = "#0a2b8d"
+  dotColor = "#0a2b8d"
+
+# markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
+
+[menu]
+  [[menu.main]]
+    identifier = 'Главная'
+    name = 'Главная'
+    url = '/'
+    weight = 1

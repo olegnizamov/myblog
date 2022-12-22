@@ -1,0 +1,29 @@
+{
+  "links": [
+    {
+      "name": "telegram",
+      "url": "https://t.me/oleg_nizamov_blog",
+      "image": "images/social/telegram.svg"
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/olegnizamov",
+      "image": "images/social/github.svg"
+    },
+    {
+      "name": "bitrix",
+      "url": "https://dev.1c-bitrix.ru/learning/resume.php?ID=64141782-752573",
+      "image": "images/social/bitrix.svg"
+    },
+    {
+      "name": "skills",
+      "url": "https://github.com/olegnizamov/myskills",
+      "image": "images/social/skills.png"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/olegnizamov/",
+      "image": "images/social/linkedin.svg"
+    }
+  ]
+}
