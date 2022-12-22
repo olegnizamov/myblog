@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Как создать блог на Github Pages - </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/posts/how-to-create-blog/" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.cd26be264a15c6ecd929eac5444f7fe53a940b3d04c42cded7bbfb2f8988b89a.css">
+  
+
+  
+    
+    <meta property="og:title" content="Как создать блог на Github Pages"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/posts/how-to-create-blog/"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    
+    
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-главная">
+                    <a href="/">Главная</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-блог">
+                    <a href="/posts/">Блог</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-рекомендую">
+                    <a href="/recommend/">Рекомендую</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-я">
+                    <a href="/about/">Я</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/"></a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-главная ">
+        <a href="/">
+          
+          <span>Главная</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-блог active">
+        <a href="/posts/">
+          
+          <span>Блог</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-рекомендую ">
+        <a href="/recommend/">
+          
+          <span>Рекомендую</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-я ">
+        <a href="/about/">
+          
+          <span>Я</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Как создать блог на Github Pages</h1>
+      
+    </div>
+    <div class="content">
+      <p>В этой статье рассказано, как просто и с нуля создать сайт и сделать его доступным по адресу sitename.github.io (бесплатный хостинг Github) и подключить к нему доменное имя.</p>
+<p>Использовать будем <a href="https://hexo.io/" title="">HEXO</a>.</p>
+<p>Примерный план работы:</p>
+<ul>
+<li>Зачем этот генератор статических сайтов?</li>
+<li>Установка hexo на компьютер</li>
+<li>Настройки сайта</li>
+<li>Создание репозитория</li>
+<li>Добавляем код в репозиторий</li>
+<li>Настраиваем репозитория для публикации</li>
+<li>Добавляем в репозиторий CNAME</li>
+<li>Добавляем А-запись в DNS домена</li>
+</ul>
+<p><strong>Зачем этот генератор статических сайтов?</strong></p>
+<p>Зачем они нужны, эти генераторы? Ведь можно написать самому CSS- и html-код для каждой страницы своего сайта. Но при добавлении, например, записи в журнал каждый раз придётся переделывать страницу со списком записей, ссылки под статьёй (на следующую и предыдущую статью), добавлять новые категории и пр, вести учет тегов. А если это можно делать автоматически, зачем это делать ручками?</p>
+<p>Пользуясь генератором, Вы создаёте обычные текстовые файлы для записей и страниц, html-кода в них нет (html-теги, разумеется, можно использовать при желании). Очень популярным форматом (но не единственным) является язык разметки Markdown. Генератор съедает ваши текстовые файлы и генерирует html-файлы, которые остаётся только выложить на сайт.</p>
+<p>Так же вы не теряете производительность сервера (да и сервера у вас нет) на генерацию страниц. Любые бэкенд языки при наличии большого количества записей начинают &ldquo;подтормаживать&rdquo;, а кэширование - это по сути генерация статичных данных, которые будут подгружены на сайте. И зачем нам посредник?)</p>
+<p><strong>Установка hexo на компьютер</strong></p>
+<ol>
+<li>Устанавливаем на компьютер <a href="https://nodejs.org/en/" title="Считаешь себя синьором? Да кого ты обманываешь">Node.js</a> и <a href="http://git-scm.com/" title="Считаешь себя синьором? Да кого ты обманываешь">Git</a></li>
+<li>Устанавливаем hexo</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ npm install hexo-cli -g
+</span></span><span class="line"><span class="cl">$ hexo init blog
+</span></span><span class="line"><span class="cl">$ cd blog
+</span></span><span class="line"><span class="cl">$ npm install
+</span></span><span class="line"><span class="cl">$ hexo server
+</span></span></code></pre></div><p><strong>Nota bene!</strong> При установке на Windows(Мы говорим про PowerShell, не CMD) у меня возникла ошибка &ldquo;Невозможно загрузить файл …, так как выполнение сценариев отключено в этой системе&rdquo;. Подробнее можно <a href="https://zawindows.ru/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D1%8B-%D0%BD%D0%B5%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE-%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7/">почитать тут</a>
+Как решить - для тех, кому лень читать.
+Вводим:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ Get-ExecutionPolicy
+</span></span></code></pre></div><p>Если получили:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ Get-Restricted
+</span></span></code></pre></div><p>Тогда разрешаем выполнение файлов</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ Set-ExecutionPolicy unrestricted
+</span></span></code></pre></div><p><strong>Настройки сайта</strong>
+3. Забегаем на сайт hexo и из <a href="https://hexo.io/themes/">большого списка шаблонов</a> выбираем тот, который нравится вам.
+<strong>Nota bene!</strong> Перед глобальным выбором шаблонов и изучение их плюсов и минусов советую создать несколько страниц. Это позволит понять + и - данного шаблона.
+<strong>Nota bene!</strong> Мой выбор остановился на <a href="https://github.com/AngryPowman/hexo-theme-prontera">prontera</a> и <a href="http://powman.org/">сайт демо</a></p>
+<p><img src="/images/posts/how-to-create-blog/snapshot.png" alt="Дизайн шаблона как автора"></p>
+<ol start="4">
+<li>(Пропускаем, если выбираем другой шаблон) Из настроек шаблона видно, что еще установить hexo-renderer-jade и hexo-generator-feed:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ npm install hexo-renderer-jade --save
+</span></span><span class="line"><span class="cl">$ npm install hexo-generator-feed --save
+</span></span></code></pre></div><ol start="5">
+<li>Подключаем создание автоматической папки для ресурсов в source/_posts и имя поста. Для этого идем в файл _config.yml и меняем</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">post_asset_folder: true
+</span></span></code></pre></div><ol start="6">
+<li>Создайте новый пост блога командой</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ hexo new &#34;имя-нового-поста&#34;
+</span></span></code></pre></div><ol start="7">
+<li>Редактирование материала. В целом используется md разметка, но есть парочка важных элементов</li>
+</ol>
+<ul>
+<li><a href="https://hexo.io/ru/docs/tag-plugins.html">Вставка кода</a></li>
+<li><a href="https://hexo.io/ru/docs/asset-folders.html">Вставка картинки</a></li>
+</ul>
+<ol start="8">
+<li>Чтобы посмотреть результат работы до деплоя на github - http://localhost:4000/. Если результат устраивает - деплоим.
+<img src="/images/posts/how-to-create-blog/server.png" alt="Здесь будет описан точный адрес сайта."></li>
+</ol>
+<p><strong>Создание репозитория</strong>
+9. Создаем репозиторий в гите с именем пользователя. В моем случае olegnizamov.github.io
+<img src="/images/posts/how-to-create-blog/projectname.png" alt="Имя проекта"></p>
+<p><strong>Добавляем код в репозиторий</strong>
+10. Для автоматического деплоя блога на GitHub установим hexo-deployer-git</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ npm install hexo-deployer-git --save
+</span></span></code></pre></div><ol start="11">
+<li>и редактируем файл _config.yml
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">deploy:
+</span></span><span class="line"><span class="cl">type: git
+</span></span><span class="line"><span class="cl">repo: &lt;repository url&gt; # https://github.com/username/username.github.io
+</span></span></code></pre></div></li>
+<li>и отправляем изменения на блог
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ hexo clean &amp;&amp; hexo deploy
+</span></span></code></pre></div></li>
+</ol>
+<p><strong>Настраиваем репозитория для публикации</strong>
+<strong>Nota bene!</strong> Полную информацию можно почитать тут <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-records-with-your-dns-provider">Managing a custom domain for your GitHub Pages site</a>
+13. Переходим в настройки проекта -&gt; Страницы (Settings-&gt;Pages) указываем в поле Custom domain домен, который будет использоваться как зеркало.
+<img src="/images/posts/how-to-create-blog/domain.png" alt=""></p>
+<p><strong>Добавляем в репозиторий CNAME</strong>
+14. Если мы настраивали зеркало через github настройки, то файл CNAME на сервере создается автоматически. Однако есть проблема, при деплои он каждый раз будет затираться.Создавать данный файл ручками (мы ленивые и за автоматизацию) - плохо. Чтобы создать файл CNAME с помощью Hexo, просто создайте ~/hexo/source/CNAME с необходимым содержанием.
+При выполнении hexo deploy этот файл будет обновляться на Github Pages.
+<img src="/images/posts/how-to-create-blog/cname1.png" alt="">
+<img src="/images/posts/how-to-create-blog/cname2.png" alt=""></p>
+<p><strong>Добавляем А-запись в DNS домена</strong>
+15. Ну и не забываем, добавить данные А записи к домену, чтобы все корректно настроилось.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">185.199.108.153
+</span></span><span class="line"><span class="cl">185.199.109.153
+</span></span><span class="line"><span class="cl">185.199.110.153
+</span></span><span class="line"><span class="cl">185.199.111.153
+</span></span></code></pre></div><p><img src="/images/posts/how-to-create-blog/atype.gif" alt=""></p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-telegram">
+        <a href="https://t.me/oleg_nizamov_blog" title="telegram" target="_blank" rel="noopener">
+          <img src="/images/social/telegram.svg" width="24" height="24" alt="telegram"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/olegnizamov" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-bitrix">
+        <a href="https://dev.1c-bitrix.ru/learning/resume.php?ID=64141782-752573" title="bitrix" target="_blank" rel="noopener">
+          <img src="/images/social/bitrix.svg" width="24" height="24" alt="bitrix"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-skills">
+        <a href="https://github.com/olegnizamov/myskills" title="skills" target="_blank" rel="noopener">
+          <img src="/images/social/skills.png" width="24" height="24" alt="skills"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/olegnizamov/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.5993fcb11c07dea925a3fbd58c03c7f1857197c35fccce3aa963a12c0b3c9960.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

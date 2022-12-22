@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Как корректно описывать задачи - </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/posts/correct-task-description/" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.cd26be264a15c6ecd929eac5444f7fe53a940b3d04c42cded7bbfb2f8988b89a.css">
+  
+
+  
+    
+    <meta property="og:title" content="Как корректно описывать задачи"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/posts/correct-task-description/"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    
+    
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-главная">
+                    <a href="/">Главная</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-блог">
+                    <a href="/posts/">Блог</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-рекомендую">
+                    <a href="/recommend/">Рекомендую</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-я">
+                    <a href="/about/">Я</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/"></a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-главная ">
+        <a href="/">
+          
+          <span>Главная</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-блог active">
+        <a href="/posts/">
+          
+          <span>Блог</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-рекомендую ">
+        <a href="/recommend/">
+          
+          <span>Рекомендую</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-я ">
+        <a href="/about/">
+          
+          <span>Я</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Как корректно описывать задачи</h1>
+      
+    </div>
+    <div class="content">
+      <p>В большинстве компаний, с которыми мне приходилось работать, постановка задач разработчику была плохая. В этой статье я постараюсь рассказать свое видение на постановку задач и дам шаблоны постановки задач, которые я сделал для себя в бытность тимлидом.</p>
+<p><strong>NB</strong> Я согласен, что разработчик должен задавать вопросы для уточнения. Однако в большинстве компаний разработчик является инструментом для решения проблемы или создания новой фичи в бизнесе. Не всегда разработчику объясняют в какой системе находится его фича, как она будет использоваться клиентом, да и вообще что должно быть в конце получено от разработчика (об этом ниже).</p>
+<p>В данной статье будет описано:</p>
+<ul>
+<li>Постановка задачи на разработку фичи</li>
+<li>Постановка бага разработчику</li>
+</ul>
+<h3 id="постановка-задачи-на-разработку-фичи"><strong>Постановка задачи на разработку фичи</strong></h3>
+<p>Рассмотрим простой пример задачи:</p>
+<p><code>Необходимо разработать генератор отчета в doc-формате для возможности его редактировать клиентом</code></p>
+<p>Время на оценку - 20-30 минут. Длительность разработки 20-30 часов максимум. Программиста привлекают к проекту (локально у него даже нет проекта развернутого, стенда для разработки нет, задачу на развертывания никто не дает) и говорят оценить задачу. Разработчик говорит окей, 25 часов хватит. Прикручивает PHPWord, подключая его из композера (параллельно матерясь, что на проекте 5 composer.json). Разработчик проверяет все решение на Word и сдает задачу. И получает 30 багов&hellip; Потому что пользователи будут работать с libreoffice, а там есть свои проблемы с показами. Все недовольны сотрудничеством. Кто виноват?</p>
+<ol>
+<li>Разработчик должен был уточнить все-все досконально. Это логичный ответ, но к сожалению когда что-то горит, не всегда получается корректно задать вопросы, и получить ответы. На вопрос - а что должно быть получено в конце разработки от разработчика? Ответ - ну вот doc файлы ты должен сгенеририровать, в задаче же все описано. И получается &ldquo;толи я дурак, толи лыжи не едут&rdquo;(с).</li>
+<li>Лид разработки. Не проверил постановку задачи и дал ее разработчику. Не сделал дизайн-ревью, когда бы понял что разработчик не совсем погружен в предметную область (в которую по сути его должен лид был и погрузить).</li>
+<li>Аналитик, который поставил задачу. Он не описал как будет использоваться система, какие граничные условия есть в использовании. И, как обычно, не описал, но написал на постановку задачи 30 минут&hellip;</li>
+</ol>
+<p>Поэтому я в бытность лидом пришел к простому решению описания задачи:</p>
+<ol>
+<li>Краткое описание, что мы делаем (Одно предложение, обобщающее, что и зачем мы делаем.)</li>
+</ol>
+<p><strong>Пример:</strong></p>
+<p>Сделать Rest Api для получения и создания компаний в Bitrix24, чтобы с ним работал 1с.</p>
+<ol start="2">
+<li>Какие действия нужно сделать для достижения результата (Это нумерованный список тех конкретных действий, что нужно сделать линейному разработчику. Возможно с оценкой по времени.)</li>
+</ol>
+<p><strong>Пример:</strong></p>
+<ul>
+<li>Создать модуль для решения данной задачи</li>
+<li>Создать событие для расширения стандартного REST API</li>
+<li>Создать АТД (классы) для работы с сущностью компании</li>
+<li>Создать систему логирования, для хранения логов ошибок</li>
+</ul>
+<ol start="3">
+<li>Ожидаемый результат (ненумерованный чек-лист проверки задачи)</li>
+</ol>
+<p><strong>Пример:</strong></p>
+<ul>
+<li>При создании компании через API, он появляется в системе</li>
+<li>При возникновении ошибок синхронизации, данные должны быть сохранены в системе</li>
+</ul>
+<h3 id="постановка-бага-разработчику"><strong>Постановка бага разработчику</strong></h3>
+<p>При возникновении бага в системе, программисту логичнее всего поставить задачу следующим образом.</p>
+<ol>
+<li>
+<p>Шаги воспроизведения (Нумерованный список)</p>
+<p><strong>Пример:</strong></p>
+<ol>
+<li>Авторизоваться под пользователем с ID=5</li>
+<li>Зайти на страницу <a href="https://site.ru/crm/deal/details/130/">https://site.ru/crm/deal/details/130/</a></li>
+</ol>
+</li>
+<li>
+<p>Ожидаемый результат:</p>
+<p><strong>Пример:</strong></p>
+<p>Загружается страницу сделки с корректными стилями.</p>
+</li>
+<li>
+<p>Фактический результат:</p>
+<p><strong>Пример:</strong></p>
+<p>Страница не загружается, ошибка 404. (Можно приложить картинку).</p>
+</li>
+</ol>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-telegram">
+        <a href="https://t.me/oleg_nizamov_blog" title="telegram" target="_blank" rel="noopener">
+          <img src="/images/social/telegram.svg" width="24" height="24" alt="telegram"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/olegnizamov" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-bitrix">
+        <a href="https://dev.1c-bitrix.ru/learning/resume.php?ID=64141782-752573" title="bitrix" target="_blank" rel="noopener">
+          <img src="/images/social/bitrix.svg" width="24" height="24" alt="bitrix"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-skills">
+        <a href="https://github.com/olegnizamov/myskills" title="skills" target="_blank" rel="noopener">
+          <img src="/images/social/skills.png" width="24" height="24" alt="skills"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/olegnizamov/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.5993fcb11c07dea925a3fbd58c03c7f1857197c35fccce3aa963a12c0b3c9960.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

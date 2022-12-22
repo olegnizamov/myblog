@@ -27,3 +27,6 @@ menu:
 - 3 **«Why the best hire might not have the perfect resume | Regina Hartley** *[Ссылка](https://www.youtube.com/watch?v=jiDQDLnEXdA)*
 - 
 - 4 **ЕЩЕ РАЗ ПРО ДЕНЬГИ В IT / В офисе Кира Кузьменко** *[Ссылка](https://www.youtube.com/watch?v=y0ZNWd1k-no)*
+
+
+## Курсы и проекты, которые советую
