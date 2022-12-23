@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Разработка - процессы on </title>
+    <link>/tags/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B/</link>
+    <description>Recent content in Разработка - процессы on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <lastBuildDate>Thu, 09 Sep 2021 10:40:37 +0000</lastBuildDate><atom:link href="/tags/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Как корректно описывать задачи</title>
+      <link>/posts/correct-task-description/</link>
+      <pubDate>Thu, 09 Sep 2021 10:40:37 +0000</pubDate>
+      
+      <guid>/posts/correct-task-description/</guid>
+      <description>В большинстве компаний, с которыми мне приходилось работать, постановка задач разработчику была плохая. В этой статье я постараюсь рассказать свое видение на постановку задач и дам шаблоны постановки задач, которые я сделал для себя в бытность тимлидом.
+NB Я согласен, что разработчик должен задавать вопросы для уточнения. Однако в большинстве компаний разработчик является инструментом для решения проблемы или создания новой фичи в бизнесе. Не всегда разработчику объясняют в какой системе находится его фича, как она будет использоваться клиентом, да и вообще что должно быть в конце получено от разработчика (об этом ниже).</description>
+    </item>
+    
+  </channel>
+</rss>

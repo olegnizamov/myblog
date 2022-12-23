@@ -5,7 +5,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab502018-b6bb-41c4-bcc2-80447c1f3c74" name="Changes" comment="Почему у лучшего работника может быть неидеальное резюме">
+      <change afterPath="$PROJECT_DIR$/static/images/posts/epic-fail-with-me/hrfail.jpg1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/posts/task-description.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/correct-task-description.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/correct-task-description.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/about/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.min.cd26be264a15c6ecd929eac5444f7fe53a940b3d04c42cded7bbfb2f8988b89a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/finished/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/finished/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/author.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/cctv.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/cctv2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/epic-fail-with-me/hr1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/epic-fail-with-me/hr10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/epic-fail-with-me/hr2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/epic-fail-with-me/hr3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/epic-fail-with-me/hr4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/epic-fail-with-me/hr5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/epic-fail-with-me/hr6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/epic-fail-with-me/hr7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/epic-fail-with-me/hr8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/epic-fail-with-me/hr9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/epic-fail-with-me/hrfail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/how-to-create-blog/atype.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/how-to-create-blog/cname1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/how-to-create-blog/cname2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/how-to-create-blog/domain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/how-to-create-blog/projectname.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/how-to-create-blog/server.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/how-to-create-blog/snapshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/make-in-windows/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/make-in-windows/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/posts/make-in-windows/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/social/bitrix.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/social/github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/social/linkedin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/social/skills.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/social/telegram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/writer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/bundle.min.5993fcb11c07dea925a3fbd58c03c7f1857197c35fccce3aa963a12c0b3c9960.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pages/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pages/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/correct-task-description/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/epic-fail-with-me/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/how-to-create-blog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/make-in-windows/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/not-ideal-resume/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/once-again-about-money-in-it/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/page/1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projects/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projects/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/questions/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/questions/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/recommend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/recommend/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/мои-fail/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/мои-fail/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/рекомендую-обзор/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/рекомендую-обзор/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/утилиты/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/утилиты/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/posts/epic-fail-with-me/hrfail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/posts/epic-fail-with-me/hrfail.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +132,11 @@
       <recent name="E:\hugo\bin\myblog\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\hugo\bin\myblog\static\images\posts" />
+      <recent name="E:\hugo\bin\myblog\static\images\posts\epic-fail-with-me" />
       <recent name="E:\hugo\bin\myblog" />
       <recent name="E:\hugo\bin\myblog\content\posts\buffer" />
       <recent name="E:\hugo\bin\myblog\content\posts" />
-      <recent name="E:\hugo\bin\myblog\static\images\posts" />
-      <recent name="E:\hugo\bin\myblog\static\images\posts\epic-fail-with-me" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -86,7 +156,7 @@
       <workItem from="1671465550924" duration="1165000" />
       <workItem from="1671688134079" duration="1046000" />
       <workItem from="1671689198886" duration="9266000" />
-      <workItem from="1671779860640" duration="411000" />
+      <workItem from="1671779860640" duration="3310000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring blog">
       <created>1671690470244</created>
@@ -137,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671779954386</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Почему у лучшего работника может быть неидеальное резюме">
+      <created>1671780284780</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671780284780</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
