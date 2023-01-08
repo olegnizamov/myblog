@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
+    <title>Проекты on </title>
     <link>/projects/</link>
-    <description>Recent content on </description>
+    <description>Recent content in Проекты on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-en</language><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-en</language>
+    <lastBuildDate>Mon, 02 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Стандарты разработки Битрикс-проектов</title>
+      <link>/projects/standart-programming-bitrix/</link>
+      <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/standart-programming-bitrix/</guid>
+      <description>Ссылка на репозиторий
+Цель данного проекта является систематизация знания по Bitrix и помощь коллегам/командам в написании корректного кода, который легко поддерживать.
+В стандартнах будет учтено:
+PHP SQL - в процессе HTML\CSS разметка - в процессе Javascript - в процессе Разработка на 1c-Битрикс - в процессе Разработка на Битрикс24 - в процессе Использование Bx.js - в процессе GIT (git flow) GIT (trunk based flow) CI/CD </description>
+    </item>
+    
   </channel>
 </rss>

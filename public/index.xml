@@ -6,7 +6,39 @@
     <description>Recent content in Пилим код,  проектируем системы и пишем об этом в блоге. on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
-    <lastBuildDate>Mon, 19 Dec 2022 10:40:37 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Стандарты разработки Битрикс-проектов</title>
+      <link>/projects/standart-programming-bitrix/</link>
+      <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/standart-programming-bitrix/</guid>
+      <description>Ссылка на репозиторий
+Цель данного проекта является систематизация знания по Bitrix и помощь коллегам/командам в написании корректного кода, который легко поддерживать.
+В стандартнах будет учтено:
+PHP SQL - в процессе HTML\CSS разметка - в процессе Javascript - в процессе Разработка на 1c-Битрикс - в процессе Разработка на Битрикс24 - в процессе Использование Bx.js - в процессе GIT (git flow) GIT (trunk based flow) CI/CD </description>
+    </item>
+    
+    <item>
+      <title>C какой технической проблемой вы недавно столкнулись, и как вы её решили?</title>
+      <link>/posts/what-technical-problem-have-you-encountered-recently/</link>
+      <pubDate>Sun, 01 Jan 2023 15:16:37 +0000</pubDate>
+      
+      <guid>/posts/what-technical-problem-have-you-encountered-recently/</guid>
+      <description>Я часто прохожу собеседования. В этой серии статьей я постараюсь раскрыть основные вопросы, которые задают на собеседованиях и расписать свое видение на данные вопросы. Постараюсь это сделать без шаблонных ответов и разберу примерные ошибки ответа на вопросы.
+На что вопрос : На умение решать проблемы самостоятельно и ваши софт-скиллы.
+На что необходимо обратить внимание : Цель вопроса выяснить ваш рабочий процесс, как вы САМОСТОЯТЕЛЬНО решаете задачи, дергаете или нет вы окружающих для решения проблемы.</description>
+    </item>
+    
+    <item>
+      <title>БезТЗатый программист</title>
+      <link>/posts/without-technical-specification/</link>
+      <pubDate>Mon, 19 Dec 2022 10:40:37 +0000</pubDate>
+      
+      <guid>/posts/without-technical-specification/</guid>
+      <description> </description>
+    </item>
+    
     <item>
       <title>ЕЩЕ РАЗ ПРО ДЕНЬГИ В IT / В офисе Кира Кузьменко</title>
       <link>/posts/once-again-about-money-in-it/</link>
@@ -24,6 +56,18 @@
       
       <guid>/posts/not-ideal-resume/</guid>
       <description>Видео об интересном подходе к собеседованию и поиску работы. По мнению Регины Хартли существуют 2 типа соискателей &amp;quot; серебряная ложка&amp;quot;, человек с великолепной учебой, крутым портфолио и &amp;ldquo;бойцом&amp;rdquo;, человеком с определенным риском для работодателя(непрофильная работа, большое количество увольнений). Выбирая между одним претендентом на вакансию с резюме и другим,который преодолевал трудности, руководитель отдела кадров Регина Хартли даёт шанс «бойцу». Выросшая в неблагоприятной среде, Хартли знает, что тех, кто расцветает даже в самых мрачных условиях, толкает вперёд твёрдое намерение не сдаваться в постоянно меняющейся рабочей обстановке.</description>
+    </item>
+    
+    <item>
+      <title>ПРОВЕРЬ СВОЙ УРОВЕНЬ В США от L2 до L8 | Что должен знать программист в США? От стажера до стаффа</title>
+      <link>/posts/from-l2-to-l8/</link>
+      <pubDate>Mon, 19 Dec 2022 10:40:37 +0000</pubDate>
+      
+      <guid>/posts/from-l2-to-l8/</guid>
+      <description>L2 уровень - стажирока или смена професссии Что делает L2:
+Умение учиться Социальные навыки Аналог L3, только в ограниченный промежуток времени Вопросы к программисту на L2 уровне:
+Вы тот, кого компания хочет нанять на полный рабочий день? Хотите учиться или нет? Вы хорошо воспринимаете обратную связь? Вы хороший товарищ по команде? L3 уровень - junior developer Что делает L3:
+Опыт разработки менее года или его нет. Оказывает влияние на небольшой кусок проекта/фичи.</description>
     </item>
     
     <item>
@@ -71,6 +115,15 @@ make — утилита предназначенная для автоматиз
     </item>
     
     <item>
+      <title>Мой roadmap</title>
+      <link>/roadmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/roadmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Обо мне</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -80,6 +133,15 @@ make — утилита предназначенная для автоматиз
 В IT я более 10 лет, работал на разных позициях:
 devops, тимлид, саппорт по битрикс проектам, фул-стек разработчик, джун\мид\сеньор\техлид по беку, Умею в PHP, Golang, LUA, Python, JS и другие классные слова.
 В чём я крут? Могу найти общий язык как с программистами, так и с системными администраторами (девопсами), и с менеджерами / бизнесом.</description>
+    </item>
+    
+    <item>
+      <title>Сертификаты</title>
+      <link>/certificates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/certificates/</guid>
+      <description>Bitrix Amo crm </description>
     </item>
     
   </channel>

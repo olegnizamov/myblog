@@ -23,10 +23,12 @@ menu:
 - 1 **Грамотное ООП: организация надёжной бизнес-логики / Дмитрий Елисеев (ElisDN)** *[Ссылка](https://www.youtube.com/watch?v=eU4ajVB9Lz4)*
 
 - 2 **«Какой ты покемон? Почему вас не берут на работу», Полина Накрайникова** *[Ссылка](https://www.youtube.com/watch?v=Hftt0O3h43s&t=1s)*
-- 
+
 - 3 **«Why the best hire might not have the perfect resume | Regina Hartley** *[Ссылка](https://www.youtube.com/watch?v=jiDQDLnEXdA)*
-- 
+
 - 4 **ЕЩЕ РАЗ ПРО ДЕНЬГИ В IT / В офисе Кира Кузьменко** *[Ссылка](https://www.youtube.com/watch?v=y0ZNWd1k-no)*
+
+- 5 **ПРОВЕРЬ СВОЙ УРОВЕНЬ В США от L2 до L8 | Что должен знать программист в США? От стажера до стаффа** *[Ссылка](https://www.youtube.com/watch?v=s-O7sY1_W-M)*
 
 
 ## Курсы и проекты, которые советую

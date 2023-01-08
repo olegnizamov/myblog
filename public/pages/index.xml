@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language><atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Мой roadmap</title>
+      <link>/roadmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/roadmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Обо мне</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -16,6 +25,15 @@
 В IT я более 10 лет, работал на разных позициях:
 devops, тимлид, саппорт по битрикс проектам, фул-стек разработчик, джун\мид\сеньор\техлид по беку, Умею в PHP, Golang, LUA, Python, JS и другие классные слова.
 В чём я крут? Могу найти общий язык как с программистами, так и с системными администраторами (девопсами), и с менеджерами / бизнесом.</description>
+    </item>
+    
+    <item>
+      <title>Сертификаты</title>
+      <link>/certificates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/certificates/</guid>
+      <description>Bitrix Amo crm </description>
     </item>
     
   </channel>

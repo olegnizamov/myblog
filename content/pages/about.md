@@ -5,7 +5,7 @@ url: "about"
 menu:
   main:
     name: "Я"
-    weight: 5
+    weight: 7
 ---
 ## Обо мне
 
