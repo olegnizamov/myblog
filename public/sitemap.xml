@@ -2,8 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tags/</loc>
+    <lastmod>2023-01-22T10:01:37+00:00</lastmod>
+  </url><url>
+    <loc>/posts/a-team-in-search-of-perfect-team/</loc>
+    <lastmod>2023-01-22T10:01:37+00:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2023-01-22T10:01:37+00:00</lastmod>
+  </url><url>
     <loc>/</loc>
-    <lastmod>2023-01-02T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-22T10:01:37+00:00</lastmod>
+  </url><url>
+    <loc>/tags/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B/</loc>
+    <lastmod>2023-01-22T10:01:37+00:00</lastmod>
+  </url><url>
+    <loc>/posts/from-l2-to-l8/</loc>
+    <lastmod>2023-01-08T10:40:37+00:00</lastmod>
+  </url><url>
+    <loc>/tags/%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D1%83%D1%8E-%D0%BE%D0%B1%D0%B7%D0%BE%D1%80/</loc>
+    <lastmod>2023-01-08T10:40:37+00:00</lastmod>
   </url><url>
     <loc>/projects/</loc>
     <lastmod>2023-01-02T00:00:00+00:00</lastmod>
@@ -12,12 +30,6 @@
     <lastmod>2023-01-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/what-technical-problem-have-you-encountered-recently/</loc>
-    <lastmod>2023-01-01T15:16:37+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2023-01-01T15:16:37+00:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
     <lastmod>2023-01-01T15:16:37+00:00</lastmod>
   </url><url>
     <loc>/tags/%D0%BF%D0%BE%D0%B8%D1%81%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B/</loc>
@@ -35,16 +47,7 @@
     <loc>/posts/not-ideal-resume/</loc>
     <lastmod>2022-12-19T10:40:37+00:00</lastmod>
   </url><url>
-    <loc>/posts/from-l2-to-l8/</loc>
-    <lastmod>2022-12-19T10:40:37+00:00</lastmod>
-  </url><url>
-    <loc>/tags/%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D1%83%D1%8E-%D0%BE%D0%B1%D0%B7%D0%BE%D1%80/</loc>
-    <lastmod>2022-12-19T10:40:37+00:00</lastmod>
-  </url><url>
     <loc>/posts/correct-task-description/</loc>
-    <lastmod>2021-09-09T10:40:37+00:00</lastmod>
-  </url><url>
-    <loc>/tags/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B/</loc>
     <lastmod>2021-09-09T10:40:37+00:00</lastmod>
   </url><url>
     <loc>/tags/%D0%BC%D0%BE%D0%B8-fail/</loc>

@@ -42,6 +42,11 @@ menu:
 <img alt="Нетология - Devops - Диплом о профессиональной переподготовке" src="/images/certificates/photo_2022-09-19_11-41-43.jpg"/>
 <img alt="Тензор - Devops" src="/images/certificates/DevOps_Part76.pdf_1.jpg"  width="500"/>
 
+### Podlodka Crew
+<img alt="Podlodka PHP Crew" src="/images/certificates/certs_PHP_1_ol.nizamov@yandex.ru.png"/>
+
+
+
 
 ### Яндекс
 <img alt="Специалист по яндекс директу" src="/images/certificates/yandexdirect.jpg"/>

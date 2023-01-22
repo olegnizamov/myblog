@@ -2,14 +2,21 @@
 <project version="4">
   <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
-      <paths name="sftp://62.113.98.22:22">
+      <paths name="career.pgk.ru">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="site.bitrixdemo24.ru">
+      <paths name="dev1.bitrixdemo24.ru">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="pgk">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
